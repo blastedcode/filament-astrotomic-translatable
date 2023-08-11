@@ -2,9 +2,9 @@
 
 namespace Blastedcode\FilamentAstrotomicTranslatable;
 
+use Blastedcode\FilamentAstrotomicTranslatable\Commands\FilamentAstrotomicTranslatableCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Blastedcode\FilamentAstrotomicTranslatable\Commands\FilamentAstrotomicTranslatableCommand;
 
 class FilamentAstrotomicTranslatableServiceProvider extends PackageServiceProvider
 {
