@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "blastedcode/filament-astrotomic-translatable",
+    "description": "This is my package filament-astrotomic-translatable",
     "keywords": [
-        ":vendor_name",
+        "blastedcode",
         "laravel",
-        ":package_slug"
+        "filament-astrotomic-translatable"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/blastedcode/filament-astrotomic-translatable",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Barry Last",
+            "email": "barrylast@blastedcode.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Blastedcode\\FilamentAstrotomicTranslatable\\": "src/",
+            "Blastedcode\\FilamentAstrotomicTranslatable\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Blastedcode\\FilamentAstrotomicTranslatable\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Blastedcode\\FilamentAstrotomicTranslatable\\FilamentAstrotomicTranslatableServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentAstrotomicTranslatable": "Blastedcode\\FilamentAstrotomicTranslatable\\Facades\\FilamentAstrotomicTranslatable"
             }
         }
     },
